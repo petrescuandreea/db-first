@@ -1,0 +1,24 @@
+Nome tabella => auto usate
+Default => not null
+
+
+Nome colonne => tipo di dato / vincoli di integrità
+ID (primary key) => int / auto_increment;
+Marca => varchar(30);
+Modello => varchar(30);
+Anno => year;
+Prezzo => int;
+Colore => varchar(15);
+Porte => tinyint;
+Posti a sedere => tinyint;
+Per neopatentati => varchar(2);
+Tipo di cambio => varchar(10);
+Marce => tinyint;
+Alimentazione => varchar(10);
+Emissioni CO2 => varchar(15);
+Classe di emissioni => varchar(15);
+Chilometraggio => varchar(10);
+Revisione valida fino a => date;
+Ultima manutenzione => date;
+Targa => varchar (10) / unique;
+Numero di inventario => varchar(7) / unique;
